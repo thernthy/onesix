@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link href="/" className="text-2xl font-bold text-red-500">OneSix</Link>
         <div className="hidden md:flex gap-6">
           <Link href="/">Home</Link>
-          <Link href="/products">Products</Link>
+          <Link href="/products" className="text-red">Products</Link>
           <Link href="/categories">Categories</Link>
           <Link href="/cart">Cart</Link>
         </div>
