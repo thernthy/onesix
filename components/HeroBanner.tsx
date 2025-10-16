@@ -20,9 +20,9 @@ export default function HeroBanner() {
           </div>
         </div>
         <img
-          src="/hero.jpg"
+          src="https://i.pinimg.com/736x/b7/39/37/b73937eedaa66cdce47079640075c218.jpg"
           alt="Tech Workspace"
-          className="mt-8 md:mt-0 w-full md:w-1/2 rounded-lg shadow-lg"
+          className="mt-8 md:mt-0 w-full  md:w-1/2 rounded-lg shadow-lg"
         />
       </div>
     </section>
