@@ -1,10 +1,10 @@
 // components/ClientLayout.tsx
 "use client";
 
-import MotionProvider from "@/components/MotionProvider";
+import { ReactNode } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { ReactNode } from "react";
+import PageTransition from "@/components/PageTransition";
 import { AppProgressBar as ProgressBar } from "next-nprogress-bar";
 
 export default function ClientLayout({ children }: { children: ReactNode }) {
@@ -15,11 +15,9 @@ export default function ClientLayout({ children }: { children: ReactNode }) {
         color="#e50914"
         options={{ showSpinner: false }}
       />
-      <MotionProvider>
-        <Navbar />
-        <main className="min-h-screen">{children}</main>
-        <Footer />
-      </MotionProvider>
+      <Navbar />
+      <PageTransition>{children}</PageTransition>
+      <Footer />
     </>
   );
 }
