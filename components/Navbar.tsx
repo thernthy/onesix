@@ -8,14 +8,14 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-red-700/40 shadow-[0_2px_15px_rgba(229,9,20,0.15)]">
+    <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md border-b bg-gradient-to-l from-[#e50914] to-[#700000] border-red-700/40 shadow-[0_2px_15px_rgba(229,9,20,0.15)]">
       <nav className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Brand */}
         <Link
           href="/"
           className="text-2xl font-bold text-red-600 tracking-wider hover:text-red-500 transition-colors"
         >
-          OneSix
+           <img src={'Onesix-b-r.png'} className=" h-20" />
         </Link>
 
         {/* Desktop Nav */}

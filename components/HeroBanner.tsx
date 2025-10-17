@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HeroBanner() {
   return (
-    <section className="bg-gradient-to-r from-[#e50914] to-[#700000] text-white py-20 md:py-32">
+    <section className="bg-gradient-to-l from-[#e50914] to-[#700000] text-white py-20 md:py-32">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
         <div className="max-w-lg">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Discover Premium Tech</h1>
